@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Noto+Serif|Supermercado+One|Bree+Serif" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+        <div class="container-fluid">
+		    <h1 class="text-center">Quote Machine</h1> 
+            <br>
+            <div style="max-width: 700px; vertical-align: middle;" class="container-fluid">
+            <div id="content" class="container-fluid">
+                <div id="quote-and-author">
+                    <div id='quote' class="text-center">                    
+                        <i class="fa fa-quote-left disappear" style="animation-duration: 3s;" aria-hidden="true" id="left-quote"></i> <i class="fa fa-quote-right disappear" style="animation-duration: 3s;" aria-hidden="true" id="right-quote"></i>
+                    </div>
+		          <div id='author' class="text-right"></div>
+                </div>
+                <br>
+		        <button class="button" id="get-quote">New quote</button>
+                <div id='tweet'><a class="twitter-share-button" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+
+            </div>
+            <div id="credit" class="text-right">by <a href="https://github.com/annamts" target="_blank">AnnaMTS</a> using <a href="https://talaikis.com/" target="_blank">Tadas Talaikis</a>' <a href="https://talaikis.com/random_quotes_api/" target="_blank">API</a></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="main.js"></script>
+
+
+	</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    background-color: pink;
+}
+
+h1 {
+    font-family: 'Supermercado One', cursive;
+    font-size: 65px;
+    color: white;
+    text-shadow: -2px 0 #AFEEEE, 0 2px #AFEEEE, 2px 0 #AFEEEE, 0 -2px #AFEEEE;
+    margin: 16px;
+}
+
+#credit {
+    margin-top: 3px;
+    color: #FF0080;
+}
+
+a {
+    color: #FF0080;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: #FF0080;
+}
+
+#content {
+    max-width: 700px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#left-quote {
+    font-size: 20px;
+    vertical-align: text-top;
+    color:#AFEEEE;
+}
+
+#right-quote {
+    font-size: 20px;
+    vertical-align: text-bottom;
+    color:#AFEEEE;
+}
+
+#quote {
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+}
+
+
+#author {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: #FF0080;
+}
+
+#tweet {
+    float: right;
+}
+
+.fa-twitter {
+    font-size: 50px;
+    color:#AFEEEE;
+    transition-duration: 0.4s;
+}
+
+.fa-twitter:hover {
+    color:pink;
+}
+
+.button {
+    background-color: pink;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FF0080;
+    display: inline-block;
+    font-family: 'Supermercado One', cursive;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #AFEEEE;
+    color: white;
+}
+
+.button:focus {
+    outline:0;
+}
+
+
+::selection {
+    background: #AFEEEE;
+}
+
+/*ANIMATIONS*/
+/* fade */
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.appear {
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+.disappear {
+  animation-name: disappear;
+  animation-duration: 1s;
+  opacity: 0;
+}
